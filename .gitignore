@@ -1,0 +1,8 @@
+db.pgn
+idx_to_move.npy
+move_to_idx.npy
+training_data.csv
+X.npy
+y.npy
+move_predictor.pt
+/chess-env
