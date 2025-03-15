@@ -32,9 +32,9 @@ A fun and interactive chess engine where you can play move-by-move against a **d
 
 ### Clone this GitHub repository
 
-- Clone this git repository by ` git clone repository/link`
+- Clone this git repository by `git clone https://github.com/mukesh-chevula/Chess-Engine.git`
 
-### Download a Chess Game Database from LiChess [Click Here to to visit download page](https://database.lichess.org)
+### Download a Chess Game Database from Lichess [Visit download page](https://database.lichess.org)
 
 - Convert the `.zst` file to `.pgn` file
 
@@ -48,11 +48,11 @@ A fun and interactive chess engine where you can play move-by-move against a **d
 
 ### Run `parse_pgn.py`
 
-- Run `parse_pgn.py` to make `training_data.csv` which will be further used in our game
+- Run `parse_pgn.py` to make `training_data.csv` which will be saved to `/processed` Folder for further use in our game
 
 ### Run `preprocess_dataset.py`
 
-- Run `preprocess_dataset.py` to make `X.npy`, `y.npy`, `idx_to_move.npy` & `move_to_idx.npy` which will be further used in our game
+- Run `preprocess_dataset.py` to make `X.npy`, `y.npy`, `idx_to_move.npy` & `move_to_idx.npy` which will be saved to `/processed` Folder for further use in our game
 
 ### Run `train_model.py`
 
@@ -63,6 +63,11 @@ A fun and interactive chess engine where you can play move-by-move against a **d
 - Finally, run the graphical interface:
   python `chess_gui.py`
   You can now play chess against your trained AI in a fully interactive GUI!
+
+### Folder Structure
+<img width="532" alt="Screenshot 2025-03-15 at 3 17 33 PM" src="https://github.com/user-attachments/assets/4fb7a184-7051-47a9-b261-42771ab7e9f9" />
+
+
 
 ### Note (Important)
 
